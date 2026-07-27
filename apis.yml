@@ -1,8 +1,29 @@
 aid: flashpoint
 name: Flashpoint
-description: Flashpoint is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Flashpoint is a threat intelligence company delivering decisive intelligence for
+  cybersecurity, fraud prevention, corporate and physical security, vulnerability
+  management, insider threat, and national security teams. Its Ignite platform and
+  Flashpoint API surface data collected from illicit online communities, the deep and
+  dark web, chat services, and open sources — exposing threat actors, compromised
+  credentials, vulnerabilities, and fraud indicators. Flashpoint makes this finished
+  intelligence and raw data available programmatically through a REST API at
+  api.flashpoint.io, documented at docs.flashpoint.io, so security teams can integrate
+  alerting, data feeds, and finished intelligence into SOC, SIEM, and security
+  automation workflows.
 url: https://raw.githubusercontent.com/api-evangelist/flashpoint/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://flashpoint.io/wp-content/themes/flashpoint/favicons/favicon-192.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,15 +32,60 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-apis: []
+- Threat Intelligence
+- Cybersecurity
+- Security
+- Fraud Prevention
+- Vulnerability Management
+- Dark Web
+- Data
+apis:
+- name: Flashpoint API
+  description: >-
+    Flashpoint's REST API exposes threat intelligence, compromised credentials,
+    vulnerability, and fraud data programmatically. Access is documented on the
+    Flashpoint developer portal (docs.flashpoint.io) and served from api.flashpoint.io.
+  humanURL: https://docs.flashpoint.io/
+  baseURL: https://api.flashpoint.io
+  tags:
+  - Threat Intelligence
+  - Cybersecurity
+  properties:
+  - type: Documentation
+    url: https://docs.flashpoint.io/
+  - type: APIReference
+    url: https://docs.flashpoint.io/
+  - type: DeveloperPortal
+    url: https://docs.flashpoint.io/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/flashpoint-domain-security.yml
 - type: Website
-  url: http://www.flashpoint-intel.com/
+  url: https://flashpoint.io/
+- type: DeveloperPortal
+  url: https://docs.flashpoint.io/
+- type: Documentation
+  url: https://docs.flashpoint.io/
+- type: Blog
+  url: https://flashpoint.io/blog/
+- type: Login
+  url: https://flashpoint.io/login/
+- type: Support
+  url: https://flashpoint.io/contact-us/
+- type: GitHubOrganization
+  url: https://github.com/flashpoint-intel
+- type: LLMsTxt
+  url: llms/flashpoint-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,26 @@
+# Flashpoint
+
+> Flashpoint is a threat intelligence company delivering decisive intelligence for cybersecurity, fraud prevention, corporate and physical security, vulnerability management, insider threat, and national security teams. Its Ignite platform and Flashpoint API surface data collected from illicit online communities, the deep and dark web, chat services, and open sources — exposing threat actors, compromised credentials, vulnerabilities, and fraud indicators.
+
+Flashpoint exposes finished intelligence and raw data programmatically through a REST API at api.flashpoint.io, documented on the developer portal at docs.flashpoint.io. Security teams integrate alerting, data feeds, and finished intelligence into SOC, SIEM, and security automation workflows.
+
+Notes for agents:
+- The developer portal and API reference at docs.flashpoint.io require authentication (Auth0 / ReadMe login); public browsing is limited.
+- The API base host is https://api.flashpoint.io. No public OpenAPI specification was found at the time of writing.
+
+## API
+
+- [Flashpoint API](https://docs.flashpoint.io/): REST API for threat intelligence, compromised credentials, vulnerability, and fraud data. Base URL: https://api.flashpoint.io
+- [Developer Portal](https://docs.flashpoint.io/): Flashpoint developer documentation (login required)
+
+## Product
+
+- [Ignite platform](https://flashpoint.io/ignite/): Flashpoint's cyber threat intelligence platform
+- [Login](https://flashpoint.io/login/): Customer sign-in
+
+## Resources
+
+- [Website](https://flashpoint.io/): Company home
+- [Blog](https://flashpoint.io/blog/): Threat intelligence analysis, research, and news
+- [Contact / Support](https://flashpoint.io/contact-us/): Sales and support contact
+- [GitHub organization](https://github.com/flashpoint-intel): First-party integration scripts (Tenable, Qualys, Microsoft Sentinel, Google SecOps)
