@@ -1,0 +1,27 @@
+# Front Door AI Index — flashpoint — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: flashpoint
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: flashpoint.io
+  final_host: flashpoint.io
+  ownership: own
+  owner: flashpoint
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 4.14
+  words: 1448
+  tiers:
+    agentic: 0
+    core: 6
+    model: 0
+  ambiguous: 57
+  top_terms:
+    intelligence: 53
+    AI: 6
+    automation: 4
