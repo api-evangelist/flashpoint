@@ -1,0 +1,30 @@
+name: Flashpoint pricing
+generated: '2026-10-20'
+method: searched
+source: https://flashpoint.io/pricing/
+audience: business-product
+pricing_basis: negotiated
+published: false
+delivery:
+  delivery: managed
+plan_count: 3
+note: Core packages are listed with "GET PRICING" calls to action only; no numeric prices are published.
+plans:
+- name: Cyber Threat Intelligence
+  description: Explore illicit groups and sites. Get tailored threat reports. See suggested next steps.
+  price: GET PRICING
+  price_text: GET PRICING
+  features: [Flashpoint Ignite, API Access, Account Takeover Credentials, Vulnerability Intelligence, Request for Information (RFI) Hours, Curated Alerts, Integrations, Customer Success]
+  limits: []
+- name: Vulnerability Intelligence
+  description: Spot 415,000+ vulnerabilities without scanning your system. Includes non-CVEs.
+  price: GET PRICING
+  price_text: GET PRICING
+  features: [Vulnerability Intelligence Standalone Experience in Ignite, API Access, Integrations, Request for Information (RFI) Hours, Customer Success]
+  limits: []
+- name: Physical Security Intelligence
+  description: Monitor global events impacting key assets and personnel. Get personalized alerts.
+  price: GET PRICING
+  price_text: GET PRICING
+  features: [Echosec, RFI Hours, Customer Success]
+  limits: []

@@ -1,0 +1,132 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 8
+  own: 7
+  other_domain: 0
+  platform: 1
+  roles:
+  - api
+  - identity
+  - other
+  - portal
+  - source
+  - support
+  - website
+hosts:
+- host: api.flashpoint.io
+  found_by:
+  - apis[]
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types: []
+  serves:
+  - api
+  - api-gateway
+  vendor: kong
+  registrable_domain: flashpoint.io
+  role: api
+  relation: own
+- host: app.flashpoint.io
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: flashpoint.io
+  role: other
+  relation: own
+- host: docs.flashpoint.io
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - DeveloperPortal
+  - Documentation
+  serves:
+  - docs
+  - documentation
+  vendor: readme
+  registrable_domain: flashpoint.io
+  role: portal
+  relation: own
+- host: flashpoint.io
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - TermsOfService
+  - PrivacyPolicy
+  - Pricing
+  - Newsroom
+  - BlogRSS
+  - Website
+  - Blog
+  - Login
+  - Support
+  serves:
+  - cdn
+  vendor: cloudflare
+  registrable_domain: flashpoint.io
+  role: website
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: go.flashpoint.io
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: flashpoint.io
+  role: other
+  relation: own
+- host: help.flashpoint.io
+  found_by:
+  - probed
+  - site-links
+  - docs-index
+  - well-known
+  types: []
+  serves:
+  - docs
+  registrable_domain: flashpoint.io
+  role: support
+  relation: own
+- host: login.flashpoint.io
+  found_by:
+  - probed
+  - site-links
+  - docs-index
+  - well-known
+  - vendor-detect
+  types: []
+  serves:
+  - docs
+  - identity
+  vendor: okta
+  registrable_domain: flashpoint.io
+  role: identity
+  relation: own

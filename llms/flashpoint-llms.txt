@@ -1,26 +1,176 @@
-# Flashpoint
+---
+description: Flashpoint&#039;s industry-leading threat intelligence platform is trusted for physical security, fraud prevention, operational intel, and more.
+title: Flashpoint Home
+image: https://flashpoint.io/wp-content/uploads/Placeholder-v2-x2.png
+---
 
-> Flashpoint is a threat intelligence company delivering decisive intelligence for cybersecurity, fraud prevention, corporate and physical security, vulnerability management, insider threat, and national security teams. Its Ignite platform and Flashpoint API surface data collected from illicit online communities, the deep and dark web, chat services, and open sources — exposing threat actors, compromised credentials, vulnerabilities, and fraud indicators.
+[Skip to main content](#main-content)
 
-Flashpoint exposes finished intelligence and raw data programmatically through a REST API at api.flashpoint.io, documented on the developer portal at docs.flashpoint.io. Security teams integrate alerting, data feeds, and finished intelligence into SOC, SIEM, and security automation workflows.
+4.8 out of 5 stars
 
-Notes for agents:
-- The developer portal and API reference at docs.flashpoint.io require authentication (Auth0 / ReadMe login); public browsing is limited.
-- The API base host is https://api.flashpoint.io. No public OpenAPI specification was found at the time of writing.
+# The Best Data For The Best Intelligence
 
-## API
+- Cyber Threat Intelligence
+- Vulnerability Intelligence
+- Physical Security Intelligence
 
-- [Flashpoint API](https://docs.flashpoint.io/): REST API for threat intelligence, compromised credentials, vulnerability, and fraud data. Base URL: https://api.flashpoint.io
-- [Developer Portal](https://docs.flashpoint.io/): Flashpoint developer documentation (login required)
+Reduce risk and increase protection with decisive threat intelligence from Flashpoint. Stay ahead with intelligence sourced from where threats begin, guided by experts and AI.
 
-## Product
+Work email Get a Demo
 
-- [Ignite platform](https://flashpoint.io/ignite/): Flashpoint's cyber threat intelligence platform
-- [Login](https://flashpoint.io/login/): Customer sign-in
+TRUSTED BY GLOBAL ORGANIZATIONS
 
-## Resources
+![](https://flashpoint.io/wp-content/uploads/logo-derartment_of_defense.svg) ![](https://flashpoint.io/wp-content/uploads/logo-kaise_permante.svg) ![](https://flashpoint.io/wp-content/uploads/logo-microsoft.svg) ![](https://flashpoint.io/wp-content/uploads/logo-target.svg) ![](https://flashpoint.io/wp-content/uploads/logo-wells_fargo.svg)
 
-- [Website](https://flashpoint.io/): Company home
-- [Blog](https://flashpoint.io/blog/): Threat intelligence analysis, research, and news
-- [Contact / Support](https://flashpoint.io/contact-us/): Sales and support contact
-- [GitHub organization](https://github.com/flashpoint-intel): First-party integration scripts (Tenable, Qualys, Microsoft Sentinel, Google SecOps)
+![](https://flashpoint.io/wp-content/uploads/investigations-home-2.webp)
+
+TRUSTED BY GLOBAL ORGANIZATIONS
+
+![](https://flashpoint.io/wp-content/uploads/National-Geographic-Logo_1.svg)
+
+![](https://flashpoint.io/wp-content/uploads/Seal_of_the_United_States_Department_of_Defense_1.svg)
+
+![](https://flashpoint.io/wp-content/uploads/Kaiser-Permanete.svg)
+
+![](https://flashpoint.io/wp-content/uploads/Wells-Fargo.svg)
+
+![](https://flashpoint.io/wp-content/uploads/Microsoft.svg)
+
+![](https://flashpoint.io/wp-content/uploads/EY-logo-1.png)
+
+![](https://flashpoint.io/wp-content/uploads/UKG-logo-bw.png)
+
+## How Teams Use Flashpoint
+
+Using Flashpoint’s cyber intelligence platform, teams can identify and quickly remediate cyber threats,  
+vulnerability, and physical security risks with superior data, human expertise, and automated analysis.
+
+CTI/SOC Fraud Teams Corporate and Physical Security Vulnerability Intelligence National Security Insider Threat
+
+### CTI/SOC
+
+Uncover stolen credentials, fraud schemes, ransomware, and emerging threats with the industry’s most comprehensive data collection and intelligence. Enhance threat detection, reduce noise, and get tailored support from experts.
+
+[Learn More](https://flashpoint.io/ignite/cyber-threat-intelligence)
+
+![](https://flashpoint.io/wp-content/uploads/1-Hero-CTI-Dashboard@2x-1-1024x768.webp)
+
+### Fraud Teams
+
+Combat financial fraud, account takeovers, and brand abuse with superior insights into fraudster operations. Detect compromised data, preserve your brand’s integrity, and maintain customer trust.
+
+[Learn More](https://flashpoint.io/ignite/fraud-intelligence)
+
+![](https://flashpoint.io/wp-content/uploads/1-Hero-fraud-Dashboard-updated-1024x768.webp)
+
+### Corporate and Physical Security
+
+Enhance situational awareness on the ground to safeguard your company personnel, assets, and infrastructure. Protect executives, monitor critical events, and stay ahead of extremist activity.
+
+[Learn More](https://flashpoint.io/ignite/physical-security-intelligence)
+
+![](https://flashpoint.io/wp-content/uploads/1-Hero-PSI-1-2-1024x772.webp)
+
+### Vulnerability Intelligence
+
+Uncover vulnerabilities on average two weeks faster than the NVD with early coverage of zero-day and emerging vulnerabilities. Prioritize vulnerabilities that affect your organization & gain key context needed for effective mitigation.
+
+[Learn More](https://flashpoint.io/ignite/vulnerability-intelligence)
+
+![](https://flashpoint.io/wp-content/uploads/1-Hero-Vuln-Dashboard-updated-1-1-1024x768.webp)
+
+### National Security
+
+Identify criminal activity, observe global events, and analyze threat actor TTPs with data and intelligence aligned with your unique requirements. Access industry-best data, harness finished intelligence reports, and accelerate investigations.
+
+[Learn More](https://flashpoint.io/ignite/national-security-intelligence)
+
+![](https://flashpoint.io/wp-content/uploads/1-Hero-NSI-1-1024x772.webp)
+
+### Insider Threat
+
+Detect, monitor, and mitigate the misuse of authorized access to your network, systems, or assets. Identify insider threats and uncover intellectual property theft.
+
+[Learn More](https://flashpoint.io/ignite/cyber-threat-intelligence)
+
+![](https://flashpoint.io/wp-content/uploads/1-Hero-CTI-Dashboard@2x-1-1024x768.webp)
+
+## Leading Organizations Trust Flashpoint
+
+*In the [Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026 report](https://go.flashpoint.io/2026-Forrester-Wave)\*, Flashpoint was named a Customer Favorite. Flashpoint also received the highest score possible in both the [Fraud Intelligence](https://flashpoint.io/ignite/fraud-intelligence) and [Executive Protection](https://flashpoint.io/intelligence-solutions/physical-security-threats/) criteria.*
+
+![](https://flashpoint.io/wp-content/uploads/Customer-Favorite_200824-1-1024x1024.png)
+
+[****GET THE REPORT****](https://go.flashpoint.io/2026-Forrester-Wave)
+
+## The Flashpoint Difference
+
+With access to over 3.6 petabytes of threat intelligence from open and hard-to-reach adversary spaces, Flashpoint’s cyber threat intelligence platform combines  [primary-source collections](https://flashpoint.io/why-flashpoint/primary-source-collection/), analyst expertise, and  [integrated AI](https://flashpoint.io/why-flashpoint/artificial-intelligence/) to help the world’s leading businesses and  [government organizations](https://flashpoint.io/solutions/national-security-threats/) to protect people, places, and assets.  
+  
+
+**1. Real-Time Intel**
+
+Real-time threat alerts based on data from open & dark web, illicit forums, groups, and other primary sources.
+
+****2. Expert Analysis****
+
+Our analysts sort and prioritize threats most relevant to your organization’s unique PIRs.
+
+****3. Threat Protection****
+
+Stay ahead of relevant threats. Find 5x more relevant intel. Streamline security.
+
+[**Get a demo**](https://flashpoint.io/demo)
+
+[****GEt pricing****](https://flashpoint.io/pricing/)
+
+### Flashpoint Integrations
+
+Get the most out of your security investments by integrating Flashpoint into your workflow where it matters most. Leverage the Flashpoint MCP Server to securely access Flashpoint intelligence directly within AI assistants and AI-native workflows using the emerging Model Context Protocol (MCP) standard.
+
+[**See all integrations »**](https://flashpoint.io/integrations)
+
+## Proven Impact for Security Teams
+
+Flashpoint’s cyber threat intelligence platform provides proven value and industry-best data, combining analysis  
+from human experts and AI capabilities. Unify your operations with threat intelligence software built for speed, clarity, and action.
+
+###### 482%
+
+ROI in 6 months
+
+###### $500M
+
+Fraud loss avoided per year
+
+###### 5X
+
+More relevant data
+
+### Industry’s Deepest Primary Source Intelligence
+
+Access data from real adversary spaces that others can’t reach.
+
+### Flexible Delivery via AI-Enhanced Platform & APIs
+
+Accelerate analysis and integrate intelligence with AI and APIs.
+
+### Enriched by Expert Analyst Insight
+
+Analysts validate, interpret, and elevate critical intelligence.
+
+### Specialized Services Tailored to Requirements
+
+Support your investigations, reporting, and mission priorities.
+
+## Latest in Threat Intelligence
+
+- In the News ### [Flashpoint Named A Customer Favorite in The Forrester Wave™](https://flashpoint.io/blog/flashpoint-named-a-customer-favorite-in-the-forrester-wave/) Flashpoint was named a Customer Favorite in the Forrester Wave™: External Threat Intelligence Service Providers, Q3 2026 report.
+- Cyber Threat Intelligence ### [Flashpoint 2026 Global Threat Intelligence Report](https://flashpoint.io/resources/report/flashpoint-global-threat-intelligence-report-2026/) The Flashpoint 2026 Global Threat Intelligence Report delivers crucial data and insights for cyber threats facing organizations today.
+- Corporate & Physical Security ### [The Complete Guide to OSINT for Executive Protection](https://flashpoint.io/resources/e-book/the-complete-guide-to-osint-for-executive-protection/) How Open-Source Intelligence Can Safeguard High-Profile Individuals from Digital and Physical Threats
+
+*\*Forrester does not endorse any company, product, brand, or service included in its research publications and does not advise any person to select the products or services of any company or brand based on the ratings included in such publications. Information is based on the best available resources. Opinions reflect judgment at the time and are subject to change. This report is part of a broader collection of Forrester resources, including interactive models, frameworks, tools, data, and access to analyst guidance. For more information, read about Forrester’s objectivity [here](https://www.forrester.com/about-us/objectivity/).*
+
+```json
+{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/flashpoint.io\/","url":"https:\/\/flashpoint.io\/","name":"Flashpoint | Threat Intelligence With Industry-Best Data","isPartOf":{"@id":"https:\/\/flashpoint.io\/#website"},"about":{"@id":"https:\/\/flashpoint.io\/#organization"},"primaryImageOfPage":{"@id":"https:\/\/flashpoint.io\/#primaryimage"},"image":{"@id":"https:\/\/flashpoint.io\/#primaryimage"},"thumbnailUrl":"https:\/\/flashpoint.io\/wp-content\/uploads\/Placeholder-v2-x2.png","datePublished":"2024-04-30T13:39:56+00:00","dateModified":"2026-10-06T17:42:15+00:00","description":"Flashpoint's industry-leading threat intelligence platform is trusted for physical security, fraud prevention, operational intel, and more.","breadcrumb":{"@id":"https:\/\/flashpoint.io\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/flashpoint.io\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/flashpoint.io\/#primaryimage","url":"https:\/\/flashpoint.io\/wp-content\/uploads\/Placeholder-v2-x2.png","contentUrl":"https:\/\/flashpoint.io\/wp-content\/uploads\/Placeholder-v2-x2.png","width":930,"height":450},{"@type":"BreadcrumbList","@id":"https:\/\/flashpoint.io\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https:\/\/flashpoint.io\/#website","url":"https:\/\/flashpoint.io\/","name":"Flashpoint.io","description":"","publisher":{"@id":"https:\/\/flashpoint.io\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/flashpoint.io\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/flashpoint.io\/#organization","name":"Flashpoint","url":"https:\/\/flashpoint.io\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/flashpoint.io\/#\/schema\/logo\/image\/","url":"https:\/\/flashpoint.io\/wp-content\/uploads\/2022\/04\/open-graph-default.png","contentUrl":"https:\/\/flashpoint.io\/wp-content\/uploads\/2022\/04\/open-graph-default.png","width":1200,"height":630,"caption":"Flashpoint"},"image":{"@id":"https:\/\/flashpoint.io\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/x.com\/flashpointintel","https:\/\/www.linkedin.com\/company\/flashpoint-intel\/"]}]}
+```

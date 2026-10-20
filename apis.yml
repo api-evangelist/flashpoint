@@ -1,16 +1,10 @@
 aid: flashpoint
 name: Flashpoint
-description: >-
-  Flashpoint is a threat intelligence company delivering decisive intelligence for
-  cybersecurity, fraud prevention, corporate and physical security, vulnerability
-  management, insider threat, and national security teams. Its Ignite platform and
-  Flashpoint API surface data collected from illicit online communities, the deep and
-  dark web, chat services, and open sources — exposing threat actors, compromised
-  credentials, vulnerabilities, and fraud indicators. Flashpoint makes this finished
-  intelligence and raw data available programmatically through a REST API at
-  api.flashpoint.io, documented at docs.flashpoint.io, so security teams can integrate
-  alerting, data feeds, and finished intelligence into SOC, SIEM, and security
-  automation workflows.
+description: Flashpoint is a threat intelligence company delivering decisive intelligence for cybersecurity, fraud prevention, corporate and physical security,
+  vulnerability management, insider threat, and national security teams. Its Ignite platform and Flashpoint API surface data collected from illicit online
+  communities, the deep and dark web, chat services, and open sources — exposing threat actors, compromised credentials, vulnerabilities, and fraud indicators.
+  Flashpoint makes this finished intelligence and raw data available programmatically through a REST API at api.flashpoint.io, documented at docs.flashpoint.io,
+  so security teams can integrate alerting, data feeds, and finished intelligence into SOC, SIEM, and security automation workflows.
 url: https://raw.githubusercontent.com/api-evangelist/flashpoint/refs/heads/main/apis.yml
 deliveryModel:
   model: saas
@@ -39,8 +33,8 @@ x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bloomberg-beta
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (local-v5; was portfolio-lead)
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-10-06'
@@ -56,30 +50,30 @@ tags:
 - Vulnerability Management
 - Dark Web
 - Data
-apis:
-- name: Flashpoint API
-  description: >-
-    Flashpoint's REST API exposes threat intelligence, compromised credentials,
-    vulnerability, and fraud data programmatically. Access is documented on the
-    Flashpoint developer portal (docs.flashpoint.io) and served from api.flashpoint.io.
-  humanURL: https://docs.flashpoint.io/
-  baseURL: https://api.flashpoint.io
-  tags:
-  - Threat Intelligence
-  - Cybersecurity
-  properties:
-  - type: Documentation
-    url: https://docs.flashpoint.io/
-  - type: APIReference
-    url: https://docs.flashpoint.io/
-  - type: DeveloperPortal
-    url: https://docs.flashpoint.io/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/flashpoint-plans-pricing.yml
+- type: MCPServer
+  url: mcp/flashpoint-mcp.yml
+- type: WellKnown
+  url: well-known/flashpoint-well-known.yml
+- type: Hosts
+  url: hosts/flashpoint-hosts.yml
+- type: Vendors
+  url: vendors/flashpoint-vendors.yml
+- type: TermsOfService
+  url: https://flashpoint.io/terms-of-service/
+- type: PrivacyPolicy
+  url: https://flashpoint.io/privacy-policy/
+- type: Pricing
+  url: https://flashpoint.io/pricing/
+- type: Newsroom
+  url: https://flashpoint.io/news/
 - url: https://flashpoint.io/blog/feed/
   type: BlogRSS
 - type: DomainSecurity
@@ -100,8 +94,36 @@ common:
   url: https://github.com/flashpoint-intel
 - type: LLMsTxt
   url: llms/flashpoint-llms.txt
+apis:
+- name: Flashpoint API
+  description: Flashpoint's REST API exposes threat intelligence, compromised credentials, vulnerability, and fraud data programmatically. Access is documented
+    on the Flashpoint developer portal (docs.flashpoint.io) and served from api.flashpoint.io.
+  humanURL: https://docs.flashpoint.io/
+  baseURL: https://api.flashpoint.io
+  tags:
+  - Threat Intelligence
+  - Cybersecurity
+  properties:
+  - type: Documentation
+    url: https://docs.flashpoint.io/
+  - type: APIReference
+    url: https://docs.flashpoint.io/
+  - type: DeveloperPortal
+    url: https://docs.flashpoint.io/
+  aid: flashpoint:flashpoint-api
 x-enrichment:
-  date: '2026-07-19'
-  status: backfilled
-  pass: local-v1
-  note: backfilled from .gitignore signal + verified work evidence
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v5
+x-coverage:
+  state: gated
+  reason: customer-only-docs
+  detail: docs.flashpoint.io (ReadMe) redirects every visitor to a login.flashpoint.io SAML sign-in, and the MCP endpoint api.flashpoint.io/mcp answers
+    401, so no API reference or contract is publicly readable.
+  evidence:
+  - url: https://docs.flashpoint.io/
+    status: 302
+  - url: https://api.flashpoint.io/mcp
+    status: 401
+  checked: '2026-10-20'

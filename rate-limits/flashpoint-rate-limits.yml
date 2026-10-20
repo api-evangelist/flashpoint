@@ -1,0 +1,6 @@
+name: Flashpoint rate limits
+generated: '2026-10-20'
+method: none
+limit_count: 0
+limits: []
+note: API documentation at docs.flashpoint.io redirects to a SAML login (login.flashpoint.io); no public rate limits could be read.
